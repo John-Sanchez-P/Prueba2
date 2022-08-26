@@ -1,0 +1,266 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="f66779f73894f5558eadc5473bfbedd525bf0a3524ef5ece3d1ef66a11db7687.html">Ingresar A La P&aacute;gina De Utest.Com Y Proceder A Dar Clic</a></span>
+                > <span class="truncate-60"><a
+                    href="4d28768227b0b807674972b754a2766a720511929e2bfdc9f66a657d3300012c.html">Crear un nuevo usuario </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 26-08-2022 09:12</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Ingresar A La Página De Utest.Com Y Proceder A Dar Clic </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                en la opción de registro (JOIN TODAY) y realizar el diligenciamiento<br />
+del formulario con la finalidad de crear un nuevo usuario.
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="229a97f00e07a189dc668ab57e87b3f4daccf84b7efeacd9f3dfb9bcec2f1c45.html">Historiausuario
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="f7ae782f92127decf6d1b47c3f33de242785f27f944f1f5e9aa037191de76f48.html">Escenariologueo
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='far fa-stop-circle pending-icon fa-2x' title='PENDING'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="pending-color">Crear un nuevo usuario
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="d7cf32d6dc4c32d8cecd626c1b6a5a98bc2c60a3c0b7f5075669760491bcf415.png" title=" Dado que queremos acceder a la pagina" width="1920"/>
+                <img src="d7cf32d6dc4c32d8cecd626c1b6a5a98bc2c60a3c0b7f5075669760491bcf415.png" title=" John open up" width="1920"/>
+                <img src="d7cf32d6dc4c32d8cecd626c1b6a5a98bc2c60a3c0b7f5075669760491bcf415.png" title=" John opens the Choucair test" width="1920"/>
+                <img src="d7cf32d6dc4c32d8cecd626c1b6a5a98bc2c60a3c0b7f5075669760491bcf415.png" title=" John open up (completed)" width="1920"/>
+                <img src="a0d2c3f9e32776033c440ba9417ac001d29eff55b71b238965958e38164a2387.png" title=" John login" width="1920"/>
+                <img src="a0d2c3f9e32776033c440ba9417ac001d29eff55b71b238965958e38164a2387.png" title=" John clicks on Selecciona el boton Join Today" width="1920"/>
+                <img src="a0d2c3f9e32776033c440ba9417ac001d29eff55b71b238965958e38164a2387.png" title=" John login (completed)" width="1920"/>
+                <img src="a0d2c3f9e32776033c440ba9417ac001d29eff55b71b238965958e38164a2387.png" title=" Dado que queremos acceder a la pagina (completed)" width="1920"/>
+                <img src="f1e67bec455ac9d2034db82bc8f2cce0e0799d5026059af37b51801523e7b772.png" title=" Cuando presionamos el boton registrar" width="1920"/>
+                <img src="f1e67bec455ac9d2034db82bc8f2cce0e0799d5026059af37b51801523e7b772.png" title=" John ingresar info" width="1920"/>
+                <img src="f1e67bec455ac9d2034db82bc8f2cce0e0799d5026059af37b51801523e7b772.png" title=" John enters 'John' into Selecciona el campo Name, para iniciar" width="1920"/>
+                <img src="8e8f0156d2cfbd4e315a988d228807ef494ca20f04d17cc9ec28fdc00d716ac3.png" title=" John enters 'Sanchez' into Selecciona el campo Last Name" width="1920"/>
+                <img src="4d3483503afec6c146834ae4ac60ce3c23d41791f7561817701be71e64e2ef31.png" title=" John enters 'ejemplo2022@hotmail.com' into Selecciona el campo Email" width="1920"/>
+                <img src="3bd054934f8e13abf0d47be0e4ac162fc80fda2a6a67d348d701714c936b6596.png" title=" John selects December" width="1920"/>
+                <img src="a93e89d9663a855d27908c2c6085fc062a91904da46cfba10d0c4e50daa0a075.png" title=" John selects 5" width="1920"/>
+                <img src="9b26a2417956774f349b69052588d2337cbaf741c3efc4b16ccd3ddcfbea53ca.png" title=" John selects 1984" width="1920"/>
+                <img src="d9b1bae216eac25f01e211f384aae310d5c989cdbb2a261f8e863de260d2d414.png" title=" John clicks on Selecciona el boton Join Next despues de llenar los primeros datos" width="1920"/>
+                <img src="d9b1bae216eac25f01e211f384aae310d5c989cdbb2a261f8e863de260d2d414.png" title=" John ingresar info (completed)" width="1920"/>
+                <img src="abef444a21a3822947263761fddce9cccad7297404a7a91fb97e3852087fa2df.png" title=" John ingresar info adress" width="1920"/>
+                <img src="abef444a21a3822947263761fddce9cccad7297404a7a91fb97e3852087fa2df.png" title=" John enters ' ' into Selecciona el campo City" width="1920"/>
+                <img src="9870041f9d3679381f6928d7893e0668ef6b12779be67b5645c283b25941b5c6.png" title=" John enters 'Oslo' into Selecciona el campo City" width="1920"/>
+                <img src="56fbaee08449fe0538814232c3fc19b960cefe77157f85bbbfe9a6b694a245d8.png" title=" John clicks on Selecciona el campo City" width="1920"/>
+                <img src="ec79c06036aebde9781143c954ab84bba6527d3e031b4455fddaa72290c460b0.png" title=" John enters '000000' into Selecciona el campo Postal Code" width="1920"/>
+                <img src="5f4a1160e3295e62cab0941c60d6f5d49b051379fab3a03cc2dd36b5a3f6a5cc.png" title=" John clicks on Selecciona el campo Email" width="1920"/>
+                <img src="a6d929a69ca58bd3e4764ab80f7e291f1ff1ad63586c972d45eff10fb466f5dc.png" title=" John clicks on Selecciona el campo Email" width="1920"/>
+                <img src="40053559e7d3cee200741a324a37ba01d5275795ade93bebc8c21d21fd9968b9.png" title=" John clicks on Boton que nos muestra el formulario de Login" width="1920"/>
+                <img src="40053559e7d3cee200741a324a37ba01d5275795ade93bebc8c21d21fd9968b9.png" title=" John ingresar info adress (completed)" width="1920"/>
+                <img src="2ebb004f23a6688a736ed686c62870b29718ed408ebab4126d4b75c1bc0b33db.png" title=" John ingresar info devices" width="1920"/>
+                <img src="2ebb004f23a6688a736ed686c62870b29718ed408ebab4126d4b75c1bc0b33db.png" title=" John clicks on Selecciona el campo Email" width="1920"/>
+                <img src="23185966f00492c55edede1dba50f96e5011ebce02e7fad50bbf1c2b1090dce9.png" title=" John clicks on Selecciona el campo Email" width="1920"/>
+                <img src="57db44e52b6fbd1e6384c80999101edf79abfcae43e3d48032bac6a677cd2d1c.png" title=" John clicks on Selecciona el campo Email" width="1920"/>
+                <img src="eb2b0970be6b7883a7f1d69680117f9005cebb259af2d1ebc1b3885e19a096fc.png" title=" John clicks on Selecciona el campo Email" width="1920"/>
+                <img src="bfc9c6a4a6a0003481c189e8c4749bf3d9f0cdbbf679035c9024a7765a041315.png" title=" John clicks on Selecciona el campo Email" width="1920"/>
+                <img src="f0b1f55853fd866823e0a10038466868b8f95ea0617ef1e9695531330e493ceb.png" title=" John clicks on Selecciona el campo Email" width="1920"/>
+                <img src="ff1a379e25458494a97ec5a08dbaeb04e07d6a908b6311d032186172ac5dcc22.png" title=" John clicks on Selecciona el campo Email" width="1920"/>
+                <img src="0bd0b0cf537b00e0b732f55627e95ef2711db631a82acb392f21e40d948adf7f.png" title=" John clicks on Selecciona el campo Email" width="1920"/>
+                <img src="91044e2fc27b849d279a7d50402a5a6ce5a8c34b8e886c32307651282474745b.png" title=" John clicks on Selecciona el campo Email" width="1920"/>
+                <img src="6637a74072bd6378eab4018116cbe6e60cb29786871966e6da05c0fbb0b0dcd8.png" title=" John clicks on Selecciona el campo Email" width="1920"/>
+                <img src="f2d913ae959587532cc855ef7e3c1c5a4830552ec549d756c3ad2e2cbfc77991.png" title=" John clicks on Selecciona el campo Email" width="1920"/>
+                <img src="1125011cce481b468dc4f011167215e53277528dcab73c33a6771f58138f7def.png" title=" John clicks on Selecciona el campo Email" width="1920"/>
+                <img src="f498da125fe291efefafbc096adb4f8515391d7220497817374c6b1aa1028077.png" title=" John clicks on Boton que nos muestra el formulario de Login" width="1920"/>
+                <img src="f498da125fe291efefafbc096adb4f8515391d7220497817374c6b1aa1028077.png" title=" John ingresar info devices (completed)" width="1920"/>
+                <img src="ffbdcefe1cdd84ecf3849c145f8ff790dc09fadd7bedaf3b97c46ca69040983e.png" title=" John ultimos pasos" width="1920"/>
+                <img src="ffbdcefe1cdd84ecf3849c145f8ff790dc09fadd7bedaf3b97c46ca69040983e.png" title=" John enters '@a1B2#123456bVcX#' into Selecciona el campo Name, para iniciar" width="1920"/>
+                <img src="69ad768920c58190e508d0b4c8fd6166026bde08f101a2469e93e2b8cb8bec30.png" title=" John enters '@a1B2#123456bVcX#' into Selecciona el campo Name, para iniciar" width="1920"/>
+                <img src="02b55a03ef07910e132f0093d7096a2113beefceda46a1a85a7b2a22182cf99d.png" title=" John clicks on Boton que nos muestra el formulario de Login" width="1920"/>
+                <img src="8d4db23955ffff5ab630334aa07bf581b6f1e59b3bdead583331a88bece1e5b6.png" title=" John clicks on Selecciona el campo Email" width="1920"/>
+                <img src="76b9b1489b1948ee21b16ab2e1654cedfdd559917562805069bc81623116b35b.png" title=" John clicks on Selecciona el campo Email" width="1920"/>
+                <img src="d8e3cdb4d5ce312ddf17f88e0d7f22acbb9b4f2963ad422b01fa25969b35a9cd.png" title=" John clicks on Boton que nos muestra el formulario de Login" width="1920"/>
+                <img src="d8e3cdb4d5ce312ddf17f88e0d7f22acbb9b4f2963ad422b01fa25969b35a9cd.png" title=" John ultimos pasos (completed)" width="1920"/>
+                <img src="d8e3cdb4d5ce312ddf17f88e0d7f22acbb9b4f2963ad422b01fa25969b35a9cd.png" title=" Cuando presionamos el boton registrar (completed): <span class='pending-color'>PENDING</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
